@@ -19,6 +19,7 @@ PRODUCT_RELEASE_NAME := fireweed
 
 # Inherit from these configs
 $(call inherit-product, build/target/product/embedded.mk)
+$(call inherit-product, build/target/product/product_launched_with_l_mr1.mk)
 $(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions

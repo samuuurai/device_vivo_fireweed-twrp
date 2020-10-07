@@ -1,3 +1,8 @@
 [
+ { 
+  "repository": "TeamWin/android_device_qcom_common",
+   "target_path": "device/qcom/common",
+   "branch": "android-5.1",
+   "remote": "github"
 
 ]
