@@ -17,9 +17,9 @@
 # Release name
 PRODUCT_RELEASE_NAME := fireweed
 
-# Inherit from this configs
+# Inherit from these configs
 $(call inherit-product, build/target/product/embedded.mk)
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_PLATFORM := MSM8916
